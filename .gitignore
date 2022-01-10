@@ -1,0 +1,7 @@
+__pycache__/
+.idea
+.vscode
+# lib/config.py
+chrome/
+loginFiles/*
+testing/
