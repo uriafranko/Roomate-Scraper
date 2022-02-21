@@ -44,7 +44,7 @@ def main_handler(closed):
     db = Database()  # init Database driver.
 
     if closed == 0:
-        handle_open()
+        account, cookies = handle_closed(db)
         limit_scans = 5
 
     else:
