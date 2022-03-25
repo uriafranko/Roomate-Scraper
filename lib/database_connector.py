@@ -8,7 +8,7 @@ class Database:
 
     def __init__(self):
         self.db = pymongo.MongoClient(host=cnf.db['HOST'], port=27017, username=cnf.db['USERNAME'],
-                                      password=cnf.db['PASSWORD']).apartments
+                                      password=cnf.db['PASSWORD']).roomate
 
     def insert_group(self, group_id, city):
         key = {'group_id': group_id}
